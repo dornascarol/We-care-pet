@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 44px 23px 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-section {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px gray);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 280px;
+        height: 280px;
+        margin: auto auto 0;
+        max-width: 90%;  
+    }
+
+    h1 {
+        display: block;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        text-align: center;
+        width: auto;
+        height: 50px;
+        margin-top: 24px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        text-align: center;
+        width: auto;
+        height: 37px;
+        display: block;
+        margin-top: 7px;
+        margin-bottom: 17px;
+    }
+
+    .button-section {
+        background: #ADFF00;
+        border-radius: 20.5px;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+        margin: auto;
+    }
+}
